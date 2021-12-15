@@ -6,4 +6,11 @@ body{
     background-attachment: fixed;
 }
 
+button{
+    color: rgb(62, 214, 16);
+    width: 250px;
+    height: 250px;
+    border-top-width: 10px;
+    border: 1px solid black;
+}
 
