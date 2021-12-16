@@ -9,3 +9,11 @@ h2{
 .tabla{
     border-top: 1px solid red; 
 }
+
+body{
+  background-image: url(	);
+  background-repeat: no-repeat;
+  background-size: 100% auto;
+  font-family: 'Roboto',sans-serif;
+  background-attachment: fixed;
+}
