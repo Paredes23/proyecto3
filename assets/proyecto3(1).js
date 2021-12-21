@@ -10,3 +10,5 @@ function displayNavigation() {
       document.querySelector('nav').classList.add('nav-hide');
     }
   }
+
+  

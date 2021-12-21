@@ -1,3 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PROYECTO N°3</title>
+    <link rel="stylesheet" href="assets/proyecto3(inicio).css">
+</head>
+<body>
+    <header>
+        <!--Barra de Buscar-->
+        <section class="navigation">
+            <figure class="menu-bar">
+                <i id="icon-bar" class="fas fa-bars"></i>
+            </figure>
+            <figure class="logo">
+                <img src="img/logo billboard musci adwars.jpg" width=200px; height=100px;
+            </figure>
+        <div class="input-icono">
+            <input type="text"style="background-color: rgb(225, 248, 15);border-color: black;color: rgb(15, 14, 14);border-width: 2px;width: 300px; height: 20px; letter-spacing: 4px; font-size: 15px; text-decoration: none;overflow: hidden; transition: 0.2s; box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ; transition-delay: 1s; " name="input" id="search" placeholder="Buscar...">
+        </div>
+        <nav class="nav-hide">
+            <ul>
+            <li><a href="file:///C:/Users/CETPRO/OneDrive/Desktop/Proyecto3/proyecto3(inicio).html"><input type="button" style="background-color: rgb(225, 248, 15);border-color: rgb(8, 241, 241);color: rgb(15, 14, 14);width: 150px;height: 50px; letter-spacing: 4px; font-size: 15px; text-decoration: none;overflow: hidden; transition: 0.2s; box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ; transition-delay: 1s; "   value="Inicio" class="button" id="home"></a></li>
+            <li><a href="file:///C:/Users/CETPRO/OneDrive/Desktop/Proyecto3/proyecto3(artistas).html"><input type="button"  style="background-color: rgb(225, 248, 15);border-color: rgb(0, 255, 64);color: rgb(12, 12, 12);width: 150px;height: 50px;letter-spacing: 4px; font-size: 15px; text-decoration: none;overflow: hidden; transition: 0.2s; box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 "value="Artistas" class="button" id="Artists"></a></li>
+            <li><a href="file:///C:/Users/CETPRO/OneDrive/Desktop/Proyecto3/proyecto3(nominaciones).html"><input type="button" style="background-color: rgb(225, 248, 15);border-color: blue;color: rgb(7, 7, 7);width: 150px;height: 50px;letter-spacing: 4px; font-size: 15px; text-decoration: none; overflow: hidden;transition: 0.2s; box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 " value="Nominaciones" class="button" id="Nominations"></a></li>
+            <li><a href="file:///C:/Users/CETPRO/OneDrive/Desktop/Proyecto3/proyecto(4).html"> <input type="button"  style="background-color: rgb(225, 248, 15);border-color: rgb(238, 61, 7);color: rgb(7, 7, 7);width: 150px;height: 50px;letter-spacing: 4px; font-size: 15px; text-decoration: none;overflow: hidden; transition: 0.2s; box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7"value="Estadisticas" class="button" id="statistics"></a></li>
+        </ul>
+        </nav>
+        </section>
+        <!--Cierre barra de navegación-->
+
 <link rel="stylesheet" href="assets/proyecto3(4).css">
 <!DOCTYPE html>
 <html lang="en">
@@ -8,7 +41,9 @@
     <title>Estadisticas del Evento</title>
 </head>
 <body>
-    <center><h1><spam><mark>Billboard Music Awards 2021(TOP 06)</mark></spam></h1></center>
+    <br>
+    <br>
+    <center><h1><spam><mark>Billboard Music Awards 2021(TOP 07)</mark></spam></h1></center>
     <canvas id="myChart"  width="400" height="400"></canvas>
      
 
@@ -18,17 +53,18 @@
         const myChart = new Chart(ctx, {
             type: 'bar',
             data: {
-                labels: ['Pop Smoke', 'The Weeknd', 'BTS', 'Megan The Stallion', 'Drake', 'Taylor Swift'],
+                labels: ['Pop Smoke', 'The Weeknd', 'BTS', 'Megan The Stallion', 'Bad Bunny', 'Morgan Wallen','Karol G'],
                 datasets: [{
                     label: 'Rango de Nominaciones',
-                    data: [5, 10, 4, 1, 1, 2],
+                    data: [5, 10, 4, 1, 10, 3,2],
                     backgroundColor: [
                         '#00B1E4',
                         '#34fc31',
                         '#8800ad',
                         '#A09E1A',
                         '#ff9eb3',
-                        '#f4f80d'
+                        '#f4f80d',
+                        '#008080'
                     ],
                     borderColor: [
                         'rgba(255, 99, 132, 1)',
@@ -36,7 +72,8 @@
                         'rgba(255, 206, 86, 1)',
                         'rgba(75, 192, 192, 1)',
                         'rgba(153, 102, 255, 1)',
-                        'rgba(255, 159, 64, 1)'
+                        'rgba(255, 159, 64, 1)',
+                        '#00ff00'
                     ],
                     borderWidth: 4
                 }]
@@ -51,8 +88,9 @@
         });
         </script>
 
+
 <center><h2><spam>Información de artistas nominados</spam></h2></center>
-<table border="8px" style="width: 100%;height: 5px; color: #6d0e8a;font-family: Georgia, 'Times New Roman', Times, serif;letter-spacing: 4px;font-size: 15px;border-color: blue;">
+<table border="8px" style="width: 100%;height: 5px; color: #2d053a;font-family: Georgia, 'Times New Roman', Times, serif;letter-spacing: 4px;font-size: 15px;border-color: blue;">
     <tr>
     <th> País </th>
     <th> Artista </th>
@@ -61,139 +99,416 @@
     </tr>
     
     <tr>
-    <td> Canadá  </td>
-    <td> The Weeknd </td>
-    <td> 10 </td>
-    <td> 10 </td>
+    <td><img src="	https://m.media-amazon.com/images/I/51v+ndcFmbL._AC_SX425_.jpg"> Canadá  </td>
+    <td><img src="	https://media.glamour.mx/photos/6190629f2d97bd4c522a4f88/master/w_1600%2Cc_limit/243459.jpg
+        "> The Weeknd </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 10 </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 10 </td>
     </tr>
     
     <tr>
-    <td> EE.UU </td>
-    <td> Pop Smoke </td>
-    <td> 5 </td>
-    <td> 5 </td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg"> EE.UU </td>
+    <td><img src="	https://img.minutoneuquen.com/u/fotografias/m/2020/2/19/f500x333-211674_235477_1.png"> Pop Smoke </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 5 </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 5 </td>
     </tr>
     
     <tr>
-    <td> Korea del Sur </td>
-    <td>BTS </td>
-    <td> 4</td>
-    <td> 4</td>
+    <td><img src="https://www.banderas-mundo.es/data/flags/w580/kr.png"> Korea del Sur </td>
+    <td><img src="	https://www.dondeir.com/wp-content/uploads/2021/09/bts-curiosidades.jpg">BTS </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 4</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 4</td>
     </tr>
 
     <tr>
-    <td> EE.UU</td>
-    <td> Taylor Swift </td>
-    <td> 2</td>
-    <td> 2</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg"> EE.UU</td>
+    <td><img src="	https://www.clarin.com/img/2021/07/20/taylor-swift-se-propuso-defender___o62tGE1nY_340x340__1.jpg"> Taylor Swift </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 2</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 2</td>
     </tr>
 
     <tr>
-    <td>Canadá</td>
-    <td>  Drake</td>
-    <td> 1</td>
-    <td> 1</td>
+    <td><img src="	https://m.media-amazon.com/images/I/51v+ndcFmbL._AC_SX425_.jpg">Canadá</td>
+    <td><img src="https://www.nicepng.com/png/detail/86-860297_drake-upset-drake.png"> Drake</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>  Megan The Stallion</td>
-    <td> 1</td>
-    <td> 1</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td> <img src="	https://www.billboard.com/wp-content/uploads/2021/03/4q18zgsz-1920-1615788013.jpg"> Megan The Stallion</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td> <img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg">1</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>  Billie Eilish</td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td> <img src="	https://i.pinimg.com/736x/20/4c/44/204c44331f05143fed5f51fc25e44a26.jpg
+        ">Billie Eilish</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Juice Wrld </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://www.tvsur.com.pe/wp-content/uploads/2019/05/9b49975367c0846ae32d28f3e28f210e.png">Juice Wrld </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Gabby Barrett </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://musicrow.com/wp-content/uploads/2021/05/1319699029-scaled.jpg">Gabby Barrett </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 3</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 3</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Doja Cat </td>
-    <td> 1</td>
-    <td> 1</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://www3.pictures.stylebistro.com/gi/2021+Billboard+Music+Awards+Backstage+kqAK_0n_IwUx.jpg">Doja Cat </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Jack Harlow </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://www.aceshowbiz.com/images/photo/jack_harlow.jpg">Jack Harlow </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Rod Wave </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://static.hiphopdx.com/2021/04/210403-rod-wave-instagram-1200x675.png">Rod Wave </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Lil Baby </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://cdn2.excelsior.com.mx/media/styles/image800x600/public/pictures/2021/07/10/2608821.jpg">Lil Baby </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Ariana Grande </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://mx.web.img3.acsta.net/pictures/20/05/13/21/57/4470174.jpg">Ariana Grande </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>Reino Unido</td>
-    <td>Dua Lipa </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://www.ciclosbenavent.com/wp-content/uploads/2021/03/Bandera-de-inglaterra.png">Reino Unido</td>
+    <td><img src="https://assets.megamediaradios.fm/2021/09/Dua-Lipa.jpg">Dua Lipa </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>AJR </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://images.radio.com/aiu-media/ajr-77ee1df2-2a5d-49f9-8da9-4ec5f3768efb.png">AJR </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Dan + Shay </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://c8.alamy.com/compes/tya81w/l-r-dan-smyers-…e-mayo-de-2019-foto-por-jim-ruymen-upi-tya81w.jpg">Dan + Shay </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>EE.UU</td>
-    <td>Maroon 5 </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://storage.googleapis.com/exafm-uploads/2020/07/1a919a64-maroon-5-band-facebook.jpg">Maroon 5 </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
     </tr>
 
     <tr>
-    <td>Canadá</td>
-    <td>Justin Bieber </td>
-    <td> 0</td>
-    <td> 0</td>
+    <td><img src="	https://m.media-amazon.com/images/I/51v+ndcFmbL._AC_SX425_.jpg">Canadá</td>
+    <td><img src="	https://disonantes.cl/wp-content/uploads/2021/02/unnamed-16.jpg">Justin Bieber </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td> <img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg">0</td>
     </tr>
+
+    <tr>
+    <td><img src="	https://www.ciclosbenavent.com/wp-content/uploads/2021/03/Bandera-de-inglaterra.png">Reino Unido</td>
+    <td><img src="	https://allaboutmusic.pl/wp-content/uploads/2019/02/lewis-capaldi-1920x1200-c-defa-5bced3e29dbd3.jpg">Lewis Capaldi </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="https://www.banderas-mundo.es/data/flags/w580/kr.png">Korea del Sur</td>
+    <td><img src="	https://cloudfront-us-east-1.images.arcpublishing.com/gruporepublica/LTMDDKW5A5D35B5OJKGGSP6GGM.png">BLACKPINK </td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="https://www.industriaavicola.net/wp-content/uploads/2020/06/Bandera-de-Filipinas.jpg
+        ">Filipinas</td>
+    <td><img src="	https://www.sundaypunch.ph/wp-content/uploads/2021/05/SB19-1.png">SB19</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="https://www.banderas-mundo.es/data/flags/w580/kr.png">Korea del Sur</td>
+    <td><img src="	https://kpoplat.com/wp-content/uploads/2021/04/seventeen-kpoplat-3-750x450.png">Seventeen</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://www.dailysia.com/wp-content/uploads/2021/11/Jhene-Aiko-660x400.jpg">Jhené Aiko</td>
+    <td> <img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg">0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://image.shutterstock.com/image-photo/chris-brown-2013-billboard-music-260nw-145174657.jpg">Chris Brown</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://kpoplat.com/wp-content/uploads/2021/02/sza-blackpink-colaboracion-kpoplat.png">SZA</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td> <img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg">0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/cardi-b-1606135530.jpg">Cardi B</td>
+    <td> <img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg">0</td>
+    <td> <img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg">0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://remezcla.com//wp-content/uploads/2021/05/kehlani-bbma.png">Saweetie</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://www.savingcountrymusic.com/wp-content/uploads/2018/05/kane-brown.jpg">Kane Brown</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://i.ytimg.com/vi/IDi8-v3pwQU/maxresdefault.jpg">Luke Combs</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://www.universalmusic.com.br/files/2021/07/0006_chris-stapleton-750x360.jpg">Chris Stapleton</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://static.foxnews.com/foxnews.com/content/uploads/2021/04/morgan-wallen-ap.jpg">Morgan Wallen</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 3</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 3</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://www.rollingstone.com/wp-content/uploads/2020/10/Screen-Shot-2020-10-26-at-9.34.16-AM.png">Maren Morris</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://cherry-brightspot.s3.amazonaws.com/11/53/6da9e2924ee3bd23ceb83be65a25/carrieunderwood.jpg">Carrie Underwood</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://cmt.mtvnimages.com/uri/mgid:ao:image:cmt.com:696112?quality=0.8&format=jpg">Florida Georgia Line</td>
+    <td> <img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg">1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://express-images.franklymedia.com/6616/sites/1446/2020/02/04094208/Maddie-Tae-AFF.jpg
+        ">Maddie & Tae</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://www.todorock.com/wp-content/uploads/2018/12/five-finger-death-punch-1200x900.jpg">Five Finger Death Punch</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://cdn2.chicmagazine.com.mx/uploads/media/2021/04/19/machine-gun-kelly-lanza-dn.jpg">Machine Gun Kelly</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://www.rockandpop.cl/wp-content/uploads/2019/01/top.jpg">Twenty One Pilots</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://image.freepik.com/foto-gratis/bandera-puerto-rico_1401-272.jpg">Puerto Rico</td>
+    <td><img src="	https://cdns-images.dzcdn.net/images/artist/6c4574118dffc45e38ef7841f625aefb/500x500.jpg">Anuel AA</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://image.freepik.com/foto-gratis/bandera-puerto-rico_1401-272.jpg">Puerto Rico</td>
+    <td><img src="	https://www.yucatan.com.mx/wp-content/uploads/2021/07/Bad-Bunny.jpg">Bad Bunny</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 10</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 10</td>
+    </tr>
+
+    <tr>
+    <td><img src="https://i.pinimg.com/736x/ea/aa/8f/eaaa8fbaff9e086cec5d2e00ffad3c3b.jpg">Colombia</td>
+    <td><img src="https://cloudfront-eu-central-1.images.arcpublishing.com/prisa/RGFVBZTTTZGFFFRR7KGIA742Y4.jpg">J Balvin</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="https://i.pinimg.com/736x/ea/aa/8f/eaaa8fbaff9e086cec5d2e00ffad3c3b.jpg">Colombia</td>
+    <td><img src="	https://i.pinimg.com/originals/05/c6/4c/05c64c3b64ff8876fe4c3021552426c7.jpg">Maluma</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://image.freepik.com/foto-gratis/bandera-puerto-rico_1401-272.jpg">Puerto Rico</td>
+    <td><img src="	https://m.media-amazon.com/images/I/71AxMRO2HSL._SS500_.jpg">Ozuna</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://upload.wikimedia.org/wikipedia/commons/c/ce/Becky_G.jpg">Becky G</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="https://i.pinimg.com/736x/ea/aa/8f/eaaa8fbaff9e086cec5d2e00ffad3c3b.jpg">Colombia</td>
+    <td><img src="https://upload.wikimedia.org/wikipedia/commons/c/cb/Karol_G_en_2018.jpg">Karol G</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 2</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 2</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://thumbs.dreamstime.com/b/ejemplo-realista-de-la-bandera-espa%C3%B1a-137962625.jpg">España</td>
+    <td><img src="	https://upload.wikimedia.org/wikipedia/commons/3/31/Rosalia_2019-portrait.jpg">Rosalía</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://thisis-images.scdn.co/37i9dQZF1DZ06evO0valoY-large.jpg">Eslabón Armado</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/lady-gaga-cumpleanos-1585388285.jpg">Lady Gaga</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://a6h4q6d6.rocketcdn.me/wp-content/uploads/2020/08/The-Chainsmokers-film.jpg
+        ">The Chainsmokers</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://majomontemayor.com/wp-content/uploads/2018/11/Marshmello_Forbes.jpg">Marshmello</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://www.buenamusica.com/media/fotos/cantantes/biografia/surf-mesa.jpg">Surf Mesa</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://elevationworship.com/app/uploads/2020/03/About-1.jpg">Elevation Worship</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://arc-anglerfish-arc2-prod-corprensa.s3.amazonaws.com/public/7ZW2FSO7NZAH7FKNXTYLDY5DCQ.jpg">Kanye West</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://cdn.allfamous.org/people/avatars/carrie-underwood-wujn-allfamous.org.jpg">Carrie Underwood</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://sss.planeta.pe/imagen/4x3/saint-jhn-9b6d1.jpg">SAINt JHN</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 1</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="https://lastfm.freetls.fastly.net/i/u/770x0/0eadbcfd3aa0892b61ce7e82de7d0c94.jpg">Koryn Hawthorne</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+
+    <tr>
+    <td><img src="	https://i.ytimg.com/vi/JWHiQ6eB1z4/maxresdefault.jpg">EE.UU</td>
+    <td><img src="	https://b5b6t3u9.stackpathcdn.com/wp-content/uploads/2020/11/Zach-Williams-4-750x400.jpg">Zach Williams</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    <td><img src="	https://img.freepik.com/vector-gratis/premio-vinta…stracion-realista_1284-29146.jpg?size=338&ext=jpg"> 0</td>
+    </tr>
+    <a href="file:///C:/Users/CETPRO/OneDrive/Desktop/Proyecto3/proyecto3(inicio).html"> <input type="button" style="background-color: rgb(225, 248, 15);border-color: rgb(8, 241, 241);color: rgb(15, 14, 14);width: 150px;height: 50px; letter-spacing: 4px; font-size: 15px; text-decoration: none;overflow: hidden; transition: 0.2s; box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ; transition-delay: 1s; "value="Volver" class="button" id="Return"  width="600px" height="600px"></a>
 </body>
 </html>
-<br>
-<br>
- <a href="file:///C:/Users/CETPRO/OneDrive/Desktop/Proyecto3/proyecto3(inicio).html"> <input type="button" style="background-color: rgb(225, 248, 15);border-color: rgb(8, 241, 241);color: rgb(15, 14, 14);width: 150px;height: 50px; letter-spacing: 4px; font-size: 15px; text-decoration: none;overflow: hidden; transition: 0.2s; box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7 ; transition-delay: 1s; "value="Volver" class="button" id="Return"  width="600px" height="600px"></a>
+
