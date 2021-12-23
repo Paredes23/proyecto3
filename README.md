@@ -17,4 +17,16 @@ noticias destacads del evento,informacion de cada uno de los artistas que estuvi
 
 *Jaquelin Guillen: Buscar información relevante del evento y ayudar a realizar la tabla qwue se encuentra en proyecto(4).html.
 
+#OBJETIVOS DEL PRODUCTO:
 
+1.Brindar al usuario un sitio web donde pueda encontar información completa y legal de su tema de interes.
+
+2.Mostarle datos como puede ser textos,videos y graficos.
+
+#NECESIDADES DEL USUARIO:
+
+1.Obtener información de los Billboard Music Awards 2021.
+
+#USUARIA AL QUE ESTA DIRIGIDO EL PRODUCTO:
+
+Basicamente nuestra pagina web esta dirigido a personas que cuenten con un dispositivo movil y conexión a internet.Nos dirigimos basicamente a los jovenes ya que hoy en dia tienen mucho interes sobre la musica y los eventos en los que participan sus artistas favoritos.
