@@ -3,6 +3,10 @@
 En este proyecto encontraras información sobre el evento realizadó de los Billboard Music Awards 2021,conoceras la ubicacion,fecha y hora,canal por donde fue transmitido,
 noticias destacadas del evento,informacion de cada uno de los artistas que estuvieron presentes , la lista de las nominaciones y ganadores,también el top 07 de los mejores artistas.
 
+#DISEÑO DE INTERFAZ DE USUARIO:
+
+[![Whats-App-Image-2021-12-23-at-2-30-29-PM.jpg](https://i.postimg.cc/Hx24yXBC/Whats-App-Image-2021-12-23-at-2-30-29-PM.jpg)](https://postimg.cc/tZsx01Kr)
+
 #PROCESO DE DISEÑO:
 
 1.Establecimos el tema del que será nuestro producto(Billboard Music Awards 2021)
