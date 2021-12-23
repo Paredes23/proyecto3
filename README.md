@@ -11,6 +11,10 @@ noticias destacads del evento,informacion de cada uno de los artistas que estuvi
 
 3.Dividimos nuestras tareas a realizar.
 
-*Geraldine Paredes :Realizar el html del proyecto3(inicio) con su css y js,proyecto(4).html con su css ,proyecto(4).html y el index.html.
+*Geraldine Paredes :Realizar el html del proyecto3(inicio) con su css y js,proyecto(4).html con su css ,proyecto(4).html con su css y el index.html.
 
-*Xiomara Paredes: Realizar el html de proyecto3(artistas).html con su css, proyecto3(nominaciones).html con su css 
+*Xiomara Paredes: Realizar el html de proyecto3(artistas).html con su css, proyecto3(nominaciones).html con su css .
+
+*Jaquelin Guillen: Buscar información relevante del evento y ayudar a realizar la tabla qwue se encuentra en proyecto(4).html.
+
+
