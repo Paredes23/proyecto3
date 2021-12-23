@@ -2,3 +2,8 @@
 
 En este proyecto encontraras información sobre el evento realizadó de los Billboard Music Awards 2021,conoceras la ubicacion,fecha y hora,canal por donde fue transmitido,
 noticias destacads del evento,informacion de cada uno de los artistas que estuvieron presentes , la lista de las nominaciones y gandores,también el top 07 de los mejores artistas.
+
+#PROCESO DE DISEÑO:
+
+1.Establecimos el tema del que será nuestro producto(Billboard Music Awards 2021)
+2.Buscamos información relevante sobre la ubicación,fecha y hora donde se realizó el evento y también sobre las lista de nominaciones(Jaquelin).
