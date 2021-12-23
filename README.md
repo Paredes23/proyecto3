@@ -32,3 +32,5 @@ noticias destacadas del evento,informacion de cada uno de los artistas que estuv
 Basicamente nuestra pagina web esta dirigido a personas que cuenten con un dispositivo movil y conexión a internet.Nos dirigimos basicamente a los jovenes ya que hoy en dia tienen mucho interes sobre la musica y los eventos en los que participan sus artistas favoritos.
 
 #CONCLUSIÓN:
+
+Este proyecto lo hemos realizado con mucho enpeño y dedicación esperamos que le guste,agradecemos al profesor Alex por su apoyo y orientacion.Gracias!.
