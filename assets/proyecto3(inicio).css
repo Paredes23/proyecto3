@@ -21,13 +21,13 @@ li{
 }
 
 .nav-hide:hover{
-   background: #a945c7;
-   box-shadow: 0 0 10px #a945c7, 0 0 40px #a945c7, 0 0 80px #a945c7;
+    background-image: radial-gradient(circle at 50% 1%, #aef4c5 0, #9cedc1 16.67%, #87e4bc 33.33%, #6cd8b4 50%, #4dccad 66.67%, #24c3aa 83.33%, #00bba9 100%);
 }
 
 h2{
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     font-size: 25px;
     color: rgb(226, 171, 19);
+    text-shadow: 1px 1px #fff;
 }
 

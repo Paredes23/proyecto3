@@ -46,6 +46,7 @@ h2{
     color:rgb(252, 24, 43);
     font-family: Georgia, 'Times New Roman', Times, serif;
     font-size: 35px;
+    text-shadow: 1px 1px #fff;
 }
 
 h3{
